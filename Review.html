@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <center>
+        <table width="800" height="50" style="font-size: 130%;">
+            <tr>
+                <th bgcolor="burlywood">
+                    Step 1 : Account
+                </th>
+                <th bgcolor="burlywood">
+                    Step 2 : Personal Detail
+                </th>
+                <th bgcolor="cornflowerblue">
+                    Step 3 : Your Review
+                </th>
+            </tr>
+        </table>
+        <br>
+        <form action="http://www.example.com/review.php" method="get">
+
+
+            <fieldset style="width: 57%; height: 57%;" align="left">
+                <legend>
+                    <strong style="font-size: 15pt;">
+                        Your Review
+                    </strong>
+
+                </legend>
+
+                <br>
+
+                <label for="for=" hear-about"">
+                    <strong style="font-size: 13pt;">
+                        How did you hear about us?
+                    </strong>
+                </label>
+                <select name="referrer" id="hear-about"  >
+                    <option value="option">
+                        Select your option
+                    </option>
+                    <option value="whatsapp">
+                        Whatsapp
+                    </option>
+                    <option value="google">
+                        Google
+                    </option>
+                    <option value="facebook">
+                        Facebook
+                    </option>
+                    <option value="friend">
+                        Friend
+                    </option>
+                    <option value="family member">
+                        Family member
+                    </option>
+                    <option value="other">
+                        Other
+                    </option>
+                </select>
+
+                <p>
+                    <strong style="font-size: 13pt;">
+                        Would you visit again?
+                    </strong>
+
+                    <br>
+
+                    <input type="radio" name="services" value="yes" />
+                    <strong style="font-size: 13pt;">
+                        Yes
+                    </strong>
+                    <input type="radio" name="services" value="no" />
+                    <strong style="font-size: 13pt;">
+                        No
+                    </strong>
+                    <input type="radio" name="services" value="may be" />
+                    <strong style="font-size: 13pt;">
+                        Maybe
+                    </strong>
+
+                </p>
+                <p>
+                    <label for="comment">
+                        <strong style="font-size: 13pt;">
+                            Comments:
+                        </strong>
+
+                    </label>
+                    <br>
+                    <textarea name="comments" cols="50" rows="4" placeholder="Enter your comment here"></textarea>
+                </p>
+
+                <p>
+                    <strong style="font-size: 13pt;">
+                        Documents:
+                    </strong>
+
+                </p>
+                <input type="file" name="user-song" />
+
+                <br>
+                <br>
+
+                <label>
+                    <input type="checkbox" name="subscribe" checked="checked" />
+                    <strong style="font-size: 13pt;">
+                        Sign me up for email updates
+                    </strong>
+                </label>
+
+                <br>
+                <br>
+
+                <a href="Personal.html">
+                    <img src="images/back.png" alt="back" width="140" height="50">
+                </a>
+                <a href="submit.html">
+                    <img src="images/submit.png" alt="submit" width="140" height="50">
+                </a>
+            </fieldset>
+        </form>
+
+
+</body>
+
+</html>

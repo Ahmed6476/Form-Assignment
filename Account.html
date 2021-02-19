@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <center>
+        <table width="800" height="50" style="font-size: 130%;">
+            <tr>
+                <th bgcolor="cornflowerblue">
+                    Step 1 : Account
+                </th>
+                <th bgcolor="#D3D3D3">
+                    Step 2 : Personal Detail
+                </th>
+                <th bgcolor="#D3D3D3">
+                    Step 3 : Your Review
+                </th>
+            </tr>
+        </table>
+        <br>
+        <form action="http://www.example.com/review.php" method="get">
+
+            <fieldset style="width: 57%; height: 57%;" align="left">
+                <legend>
+                    <strong style="font-size: 15pt;">
+                        Account
+                    </strong>
+                </legend>
+
+                <br>
+
+                <label>
+                    <strong style="font-size: 15pt;">
+                        Email Account:
+                    </strong>
+                    <br>
+                    <input type="text" name="email" placeholder="Enter Email" size="60" maxlength="50" />
+                </label>
+
+                <br>
+                <br>
+
+                <label>
+                    <strong style="font-size: 15pt;">
+                        Password:
+                    </strong>
+                    <br>
+                    <input type="password" name="Password" placeholder="Enter Password" size="60" maxlength="50" />
+                </label>
+
+                <br>
+                <br>
+
+                <label>
+                    <strong style="font-size: 15pt;">
+                        Conform Password:
+                    </strong>
+                    <br>
+                    <input type="password" name="Password" placeholder="Conform Password" size="60" maxlength="50" />
+                </label>
+
+                <br>
+                <br>
+
+                <a href="index.html">
+                    <img src="images/back.png" alt="back" width="140" height="50">
+                </a>
+                <a href="Personal.html">
+                    <img src="images/next.png" alt="next" width="140" height="50">
+                </a>
+
+            </fieldset>
+        </form>
+
+    </center>
+
+</body>
+
+</html>
